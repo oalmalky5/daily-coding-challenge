@@ -17,3 +17,9 @@ function descendingOrder(n){
     
     return Number(arrToString.join(''))
    }
+
+// another shorter solution
+
+function descendingOrder(n){
+   return Number(n.toString().split('').reverse().join(''))
+   }
