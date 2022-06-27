@@ -8,7 +8,7 @@
 
 
 
-function heroTings(bullets, dragons){
+function heros(bullets, dragons){
     return bullets >= dragons * 2 ? true : false
   }
 
