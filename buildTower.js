@@ -25,7 +25,7 @@
 
 
 
-function towerBuilder(floors) {
+function towerBuildevirs(floors) {
     var result = [];
     var rowLength = floors + (floors-1);
     for(var i = 0; i < floors; i++) {
